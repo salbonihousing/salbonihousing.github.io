@@ -301,6 +301,10 @@ nav {
     letter-spacing: 0.03em;
 }
 
+.section-header {
+    color: var(--ink);
+}
+
 .slide-caption-meta {
     font-size: 0.65rem;
     letter-spacing: 0.18em;
