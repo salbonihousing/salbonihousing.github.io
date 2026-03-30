@@ -1,1 +1,308 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salboni Housing</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Salboni Housing</a>
+    <ul class="nav-links">
+      <li><a href="#gallery">Collection</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <p class="hero-eyebrow">Salboni Housing</p>
+    <h1 class="hero-title">Where<em>Space</em><br> Meets Purpose </h1>
+    <p class="hero-sub">A glimpse into our work — adapting homes with precision and care, creating spaces that truly
+      support the people who live in them.</p>
+    <div class="hero-cta">
+      <a href="#gallery" class="btn">Explore the Gallery <span class="btn-arrow">→</span></a>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section" id="gallery">
+    <div class="section-header">
+      <h2 class="section-title">The Gallery</h2>
+      <span class="section-num">01 / Gallery</span>
+    </div>
+
+    <div class="slider-wrapper">
+      <div class="slider-track-outer" id="sliderOuter">
+        <div class="slider-track" id="sliderTrack">
+
+          <!-- Slide 1 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/1.jpeg" alt="Project 1" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Accessible Entrance</div>
+              <div class="slide-caption-meta">Barrier-Free Design · Salboni</div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/4.jpeg" alt="Project 4" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Smart Modifications</div>
+              <div class="slide-caption-meta">Adaptive Solutions · Modern Living</div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/5.jpeg" alt="Project 5" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Improved Mobility</div>
+              <div class="slide-caption-meta">Wheelchair-Friendly · Inclusive Design</div>
+            </div>
+          </div>
+
+          <!-- Slide 6 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/6.jpeg" alt="Project 6" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Bathroom Upgrades</div>
+              <div class="slide-caption-meta">Safety Rails · Easy Access</div>
+            </div>
+          </div>
+
+          <!-- Slide 7 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/7.jpeg" alt="Project 7" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Kitchen Adaptation</div>
+              <div class="slide-caption-meta">Functional Layout · User Friendly</div>
+            </div>
+          </div>
+
+          <!-- Slide 8 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/8.jpeg" alt="Project 8" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Elder-Friendly Homes</div>
+              <div class="slide-caption-meta">Comfort & Care · Daily Living</div>
+            </div>
+          </div>
+
+          <!-- Slide 9 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/9.jpeg" alt="Project 9" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Structural Improvements</div>
+              <div class="slide-caption-meta">Durability · Long-Term Living</div>
+            </div>
+          </div>
+
+          <!-- Slide 10 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/10.jpeg" alt="Project 10" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Space Optimization</div>
+              <div class="slide-caption-meta">Efficient Layout · Better Use</div>
+            </div>
+          </div>
+
+          <!-- Slide 11 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/11.jpeg" alt="Project 11" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Safe Pathways</div>
+              <div class="slide-caption-meta">Outdoor Access · Smooth Movement</div>
+            </div>
+          </div>
+
+          <!-- Slide 12 -->
+          <div class="slide">
+            <div class="slide-placeholder">
+              <img src="./assets/images/12.jpeg" alt="Project 12" />
+            </div>
+            <div class="slide-caption">
+              <div class="slide-caption-title">Complete Transformation</div>
+              <div class="slide-caption-meta">Before & After · Salboni Projects</div>
+            </div>
+          </div>
+
+        </div><!-- /track -->
+      </div><!-- /outer -->
+
+      <div class="slider-controls">
+        <div class="slider-dots" id="sliderDots"></div>
+        <div class="slider-arrows">
+          <button class="arrow-btn" id="prevBtn" aria-label="Previous">←</button>
+          <button class="arrow-btn" id="nextBtn" aria-label="Next">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about-section" id="about">
+    <div class="section-header">
+      <h2 class="section-title">About Housing</h2>
+      <span class="section-num">02 / About</span>
+    </div>
+
+    <div class="about-grid">
+      <!-- Portrait placeholder -->
+      <div class="about-left">
+        <div class="about-portrait">
+          <img src="./assets/images/2.jpeg" alt="">
+        </div>
+        <p class="about-portrait-caption">Founder &amp; Creative Director</p>
+      </div>
+
+      <!-- Text -->
+      <div class="about-right">
+        <p class="about-tag">Salboni Apartment · Belgachia</p>
+
+        <h3 class="about-headline">
+          Where <em>stillness</em> meets the rhythm<br>of passing trains
+        </h3>
+
+        <p class="about-body">
+          Salboni Apartment stands quietly beside a pond in Belgachia — a place where mornings unfold with soft
+          reflections
+          on water and the distant cadence of railway lines. It is a setting shaped not by noise, but by contrast:
+          motion and pause,
+          urban edge and intimate calm.
+        </p>
+
+        <p class="about-body">
+          Life here moves with a subtle rhythm. The pond gathers light through the day, while the nearby tracks remind
+          you of a city
+          always in motion — close, yet never overwhelming. It is a space designed for those who value balance:
+          connection without
+          chaos, presence without excess.
+        </p>
+
+        <div class="about-divider"></div>
+
+        <div class="about-values">
+          <div class="about-value-item">
+            <div class="about-value-label">Setting</div>
+            <div class="about-value-text">
+              Pondside living with open skies and natural light.
+            </div>
+          </div>
+
+          <div class="about-value-item">
+            <div class="about-value-label">Surroundings</div>
+            <div class="about-value-text">
+              Belgachia’s familiar neighbourhood with easy urban access.
+            </div>
+          </div>
+
+          <div class="about-value-item">
+            <div class="about-value-label">Atmosphere</div>
+            <div class="about-value-text">
+              A quiet retreat shaped by water, greenery, and gentle movement.
+            </div>
+          </div>
+
+          <div class="about-value-item">
+            <div class="about-value-label">Living</div>
+            <div class="about-value-text">
+              Thoughtful spaces for everyday comfort and calm.
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section" id="contact">
+    <div class="section-header">
+      <h2 class="section-title">Get in Touch</h2>
+      <span class="section-num">03 / Contact</span>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Left: info -->
+      <div class="contact-left">
+        <h3 class="contact-intro">Contact Us<br><em>Designed for Better Living</em></h3>
+        <p class="contact-desc">
+          At Housing Adaptment Salboni, we believe every home should be safe, accessible, and comfortable. Whether you
+          need modifications or want to explore possibilities, reach out to us — we’re happy to assist and respond
+          within two working days.
+        </p>
+
+        <ul class="contact-info-list">
+          <li class="contact-info-item">
+            <div class="contact-info-icon">✉</div>
+            <div>
+              <div class="contact-info-label">Email</div>
+              <div class="contact-info-value">contact@salbonihousing.in</div>
+            </div>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-info-icon">☏</div>
+            <div>
+              <div class="contact-info-label">Phone</div>
+              <div class="contact-info-value">+91 81000 24039</div>
+            </div>
+          </li>
+          <li class="contact-info-item">
+            <div class="contact-info-icon">◎</div>
+            <div>
+              <div class="contact-info-label">Location</div>
+              <div class="contact-info-value">64/98C, Khudiram Bose Sarani, Milk Colony, Belgachia, Kolkata, West Bengal
+                700037</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Salboni Housing</div>
+    <ul class="footer-links">
+      <li><a href="#gallery">Collection</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#">Journal</a></li>
+    </ul>
+    <div class="footer-right">© 2026 Salboni Housing. All rights reserved.</div>
+  </footer>
+
+  <script src="./assets/main.js"></script>
+
+</body>
+
+</html>
