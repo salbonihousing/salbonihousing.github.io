@@ -301,7 +301,7 @@ nav {
     letter-spacing: 0.03em;
 }
 
-.section-header {
+.section-header, .contact-intro {
     color: var(--ink);
 }
 
